@@ -8,6 +8,7 @@ import flower4 from "../assets/flower/public 4.png";
 import flower5 from "../assets/flower/public 5.png";
 import letter from "../assets/letter/public letter.png";
 import creditsymbol from "../assets/music symbol.png";
+import bgm from "../assets/violet-letter.mp3";
 
 function Valuser() {
   const [showParagraph, setShowParagraph] = useState(false);
@@ -99,7 +100,7 @@ function Valuser() {
 
   return (
     <div className="web-page">
-      <audio id="bgm" src="src/assets/violet-letter.MP3" loop />
+      <audio id="bgm" src={bgm} loop />
 
       <div className="frame-page-title">
         {showParagraph && (
