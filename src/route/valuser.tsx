@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./style/webpage.css";
-import box from "../assets/1.png";
+import box from "../assets/box 2.png";
 import flower1 from "../assets/flower/public 1.png";
 import flower2 from "../assets/flower/public 2.png";
 import flower3 from "../assets/flower/public 3.png";
@@ -8,7 +8,7 @@ import flower4 from "../assets/flower/public 4.png";
 import flower5 from "../assets/flower/public 5.png";
 import letter from "../assets/letter/public letter.png";
 import creditsymbol from "../assets/music symbol.png";
-import bgm from "../assets/violet-letter.mp3";
+import bgm from "../assets/Think Tenderly.mp3";
 
 function Valuser() {
   const [showParagraph, setShowParagraph] = useState(false);
@@ -170,7 +170,7 @@ function Valuser() {
         )}
         {showCredit && (
           <div className={`credit ${fadeCredit ? "fade-in" : ""}`}>
-            Violet Letter - Evan Call
+            Think Tenderly of You - Yuki Kajiura
           </div>
         )}
       </div>
